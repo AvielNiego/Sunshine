@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/sunshine_blue</item>
+        <item name="colorPrimaryDark">@color/sunshine_dark_blue</item>
+        <item name="homeAsUpIndicator">@mipmap/ic_launcher</item>
+    </style>
+
+    <!-- Main activity theme. -->
+    <style name="ForecastTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+
+    <!-- Settings activity theme. -->
+    <style name="SettingsTheme" parent="AppTheme">
+        <item name="homeAsUpIndicator">@mipmap/ic_launcher</item>
+    </style>
+
+    <!-- main activity action bar styles -->
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Style for forecast listview -->
+    <style name="ForecastListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+        for two-pane layout -->
+    </style>
+
+    <!-- Styles for forecast detail -->
+    <style name="detailContainer">
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="detailDay">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="detailDate">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/sunshine_light_gray</item>
+    </style>
+    <style name="detailHigh">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+    <style name="detailLow">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+    <style name="detailForecast">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="detailHumidity">
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="detailPressure">
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="detailWind">
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/sunshine_light_gray</item>
+    </style>
+
+</resources>
